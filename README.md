@@ -1,5 +1,7 @@
 This breaks Twitch's TOS, use at your own risk.
 
+Uses Twitch's private api GQL, so if Twitch makes any updates, it may break. (Working as of 4/19/20) 
+
 You need a clientID to do this (not the kraken client id, a gql clientId). For whatever reason, these are not unique. You can find one online if you snoop around other people's code snippets ;)
 
 How to use:
