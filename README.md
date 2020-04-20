@@ -5,7 +5,7 @@
 You need a clientID to do this (not the kraken client id, a gql clientId). For whatever reason, these are not unique. You can find one online if you snoop around other people's gql code snippets ;)
 
 ## How to use:
-  python twitchClips.py broadcaster duration limit
+  **python twitchClips.py broadcaster duration limit**
 
   broadcaster = channel of clips you want(ex. destiny, reckful, mitchjones)
   
@@ -17,9 +17,9 @@ You need a clientID to do this (not the kraken client id, a gql clientId). For w
 
 ## Dependencies:
 
-  python3
+   python3
   
-  requests (pip install requests)
+   requests (pip install requests)
 
 
 Oh yeah keep the clips folder there, I should probably fix that.
