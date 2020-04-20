@@ -8,13 +8,17 @@ How to use:
   python twitchClips.py broadcaster duration limit
 
   broadcaster = channel of clips you want(ex. destiny, reckful, mitchjones)
+  
   duration = the time period you want the top clips from (options are ["LAST_WEEK", "LAST_DAY", "LAST_MONTH", "ALL_TIME"])
+  
   limit = the number of clips you want from that time period (twitch's limit is 100)
 
   example = python twitchClips.py destiny LAST_WEEK 10
 
 Dependencies:
+
   python3
+  
   requests (pip install requests)
 
 
@@ -22,6 +26,7 @@ Oh yeah keep the clips folder there, I should probably fix that.
 
 Future Updates:
   Make sure clips folder is there
+  
   Merge all clips together to automate making clip highlights
 
 
