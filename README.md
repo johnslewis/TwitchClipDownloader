@@ -11,7 +11,7 @@ How to use:
   duration = the time period you want the top clips from (options are ["LAST_WEEK", "LAST_DAY", "LAST_MONTH", "ALL_TIME"])
   limit = the number of clips you want from that time period (twitch's limit is 100)
 
-  example = python privateApi.py destiny LAST_WEEK 10
+  example = python twitchClips.py destiny LAST_WEEK 10
 
 Dependencies:
   python3
